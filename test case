@@ -1,0 +1,9 @@
+open on http://qalab.pl.tivixlabs.com/ 
+setWindowSize on 1366x728 
+click on id=city 
+select on id=city with value label=Paris 
+click on id=pickup 
+type on id=pickup with value 2022-01-20 
+click on id=dropoff 
+type on id=dropoff with value 2022-01-27 
+click on css=.btn 
